@@ -10,8 +10,10 @@ Selaimen kehittäjäntyökalusta löytyy mm. Network -välilehti, josta voidaan 
 
 Huomioi, että tämä verkkoliikenteen rapportti on Microsoft Edge -selaimesta. Tehtäväannossa mainittu Firefox Web tools Network pitää tulostaa samalaiset tulokset:
 
+![Jansson_Tunkistestaus_laksy_h0_Network_02](https://github.com/user-attachments/assets/22567129-d1b0-4e0e-aee0-ee7988320e0a)
 
+Analysoidaan Firefoxin kehittäjäntyökalun verkkoliikenteen raporttia, 
 
 ## Referenences
 
-Karvinen 2023: Palvelinten hallinta https://terokarvinen.com/palvelinten-hallinta/
+
