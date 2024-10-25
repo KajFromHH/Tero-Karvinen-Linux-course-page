@@ -16,12 +16,23 @@ Analysoidaan Firefoxin kehittäjäntyökalun verkkoliikenteen raporttia, koska s
 
 Huomaamme heti, että kaikki kuvassa olevassa verkkoliikenteiden status ovat 200, mikä kertoo loistavas, virhettömästä verkkoliikenteen lähetys.
 
-
 Metoodit ovat GET, mikä tarkoittaa domainit (eli verkkosivut) ja niiden tiedostot *hakeavat* dataa.
-Sitten huomaamme, että suurin osa, erityisesti githubassets -sivustot, ovat tyypiltään javascript -koodausskriptejä.
+
+Sitten huomaamme, että suurin osa, erityisesti githubassets -sivustot, ovat tyypiltään javascript -koodausskriptejä ja välimuistissa (eng. *cached*). Niissä ei ole mitään pyyntöjen ajoitus ja ovat kooltaan hyvin pieniä (alle 100 kb).
 
 
-Kun taas itse github.com -pääsivusto on HTML -tiedostoa 
+Kun taas itse github.com -pääsivusto on HTML -tiedostoa, jolla oli pyyntöjen ajoitus (katso alla olevaan kuvaan):
+
+![Jansson_Tunkistestaus_laksy_h0_Network_03](https://github.com/user-attachments/assets/67aa16c5-85ab-475b-a299-a1ebec88964a)
+
+Samasta palkilta löytyy muita hyödyllisiä tieto, erityisesti pyynnöt (request), evästeet (cookies), ja tietosuoja (security).
+
+Kuva tietoja evästeistä:
+![Jansson_Tunkistestaus_laksy_h0_Network_04](https://github.com/user-attachments/assets/078a7320-af21-4320-a5e8-85d63d9b8922)
+
+Kuva tietoja suojasta:
+![Jansson_Tunkistestaus_laksy_h0_Network_05](https://github.com/user-attachments/assets/8d39d489-5614-4bab-8f8d-2e71c9d1e8bb)
+
 
 ## Referenences
 
