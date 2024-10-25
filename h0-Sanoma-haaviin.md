@@ -28,11 +28,14 @@ Kun taas itse github.com -pääsivusto on HTML -tiedostoa, jolla oli pyyntöjen 
 Samasta palkilta löytyy muita hyödyllisiä tieto, erityisesti pyynnöt (request), evästeet (cookies), ja tietosuoja (security).
 
 ---
+---
 
 Kuva tietoja evästeistä:
+
 ![Jansson_Tunkistestaus_laksy_h0_Network_04](https://github.com/user-attachments/assets/078a7320-af21-4320-a5e8-85d63d9b8922)
 
 Kuva tietoja suojasta:
+
 ![Jansson_Tunkistestaus_laksy_h0_Network_05](https://github.com/user-attachments/assets/8d39d489-5614-4bab-8f8d-2e71c9d1e8bb)
 
 
