@@ -16,8 +16,10 @@ Analysoidaan Firefoxin kehittäjäntyökalun verkkoliikenteen raporttia, koska s
 
 Huomaamme heti, että kaikki kuvassa olevassa verkkoliikenteiden status ovat 200, mikä kertoo loistavas, virhettömästä verkkoliikenteen lähetys.
 
+
 Metoodit ovat GET, mikä tarkoittaa domainit (eli verkkosivut) ja niiden tiedostot *hakeavat* dataa.
 Sitten huomaamme, että suurin osa, erityisesti githubassets -sivustot, ovat tyypiltään javascript -koodausskriptejä.
+
 
 Kun taas itse github.com -pääsivusto on HTML -tiedostoa 
 
