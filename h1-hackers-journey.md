@@ -1,4 +1,4 @@
-# h1 - Hacker's journey
+![Jansson_Tunkistestaus_laksy_h1_x_tiivistelmät_02](https://github.com/user-attachments/assets/be4fa118-5088-4965-b91d-d563c43fc423)# h1 - Hacker's journey
 
 Tässä tehtävässä tutustuumme porttiskannaukseen ja rakennamme oma hakkerilabraa.
 
@@ -29,7 +29,8 @@ https://www.withsecure.com/fi/whats-new/podcasts/herrasmieshakkerit
 
 ### Tutkimusartikkeli kybertappoketjusta.
 
-![Jansson_Tunkistestaus_laksy_h1_x_tiivistelmät_02](https://github.com/user-attachments/assets/2687466a-0458-4a01-8a50-fb5a4f88d390)
+![Jansson_Tunkistestaus_laksy_h1_x_tiivistelmät_02](https://github.com/user-attachments/assets/84c3b9cc-0f81-470b-a83d-28cfb6352406)
+
 
 Tutkimusartikkelissa Eric M. Mutchins ym. esittävät/kertovat ...
 
