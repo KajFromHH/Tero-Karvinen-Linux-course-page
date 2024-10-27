@@ -1,4 +1,4 @@
-![Jansson_Tunkistestaus_laksy_h1_x_tiivistelmät_02](https://github.com/user-attachments/assets/be4fa118-5088-4965-b91d-d563c43fc423)# h1 - Hacker's journey
+# h1 - Hacker's journey
 
 Tässä tehtävässä tutustuumme porttiskannaukseen ja rakennamme oma hakkerilabraa.
 
@@ -43,6 +43,9 @@ Lähde: Hutchins, E. M., Cloppert, M. J., Amin, R. M. s.a. Intelligence-Driven C
 ---
 
 ### 3. The Art of Hacking -videokokoelma.
+
+![Jansson_Tunkistestaus_laksy_h1_x_tiivistelmät_03](https://github.com/user-attachments/assets/de9d9b53-cb64-4641-b3ae-611fe33c6dcf)
+
 
 Lähde:https://www.oreilly.com/videos/the-art-of/9780135767849/9780135767849-SPTT_04_00/
 
