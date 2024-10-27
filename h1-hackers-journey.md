@@ -10,6 +10,17 @@ Tässä tehtävässä tutustuumme porttiskannaukseen ja rakennamme oma hakkerila
 
 ![Jansson_Tunkistestaus_laksy_h1_x_tiivistelmät_01](https://github.com/user-attachments/assets/0d06ff9c-ebd5-44a3-b13d-6fac1d0cee3f)
 
+Podcastin jountajat Mikko Hyppönen ja Tomi Tuominen, virallisesti Suomen tietoturvakentän wirallset 
+
+wanhukset (heidän sanojensa mukaan), saavat tälle jaksolle vieraaksi Iiro Uusitalo. He keskustelevat
+
+mm. bug bounty-ohjelmista, Team Whackista sekä valkohattuhakkeriryhmästä Team Rotista ja ryhmän 
+
+järjestimistä ilmaisista murtotestauksista.
+
+#### Kommenteja
+-
+
 
 Lähteet: 
 
