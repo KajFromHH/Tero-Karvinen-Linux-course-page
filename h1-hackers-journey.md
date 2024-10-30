@@ -120,5 +120,9 @@ koska aiemmassa Linux -kurssissa käytimme nimeomaan .ova tai itse Virtualbox ve
 ### Asennan vihdoin Kalin muistitikkuun
 
 Asennan vihdoin Linux Kalin Live Boot -version, ns. https://cdimage.kali.org/kali-2024.3/kali-linux-2024.3-live-amd64.iso,
-muistitikkulleni. Se on kooltaan lähes 4,3 GB, mikä kyllä mahtuu 57 GB vapaa olevaan muistitikulle. 
+muistitikkulleni. Se on kooltaan lähes 4,3 GB, mikä kyllä mahtuu 57 GB vapaa olevaan muistitikulle.
+
+Kun Kali Linuxin iso -kuvakeen on ladattu "Downloads" -kansioon, niin konfiguroin sitä ensin
+Oracle VM Virtualboxissa (Version 7.0.12 r 159484 (Qt5.15.2), 2023 Oracle) Tero Karvisen Linux
+Debian asennusohjeen mukaisesti (https://terokarvinen.com/2021/install-debian-on-virtualbox/).
 
