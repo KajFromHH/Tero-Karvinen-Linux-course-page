@@ -1,4 +1,4 @@
-# h1 - Hacker's journey
+![Jansson_Tunkistestaus_laksy_h1_a_kalin_asennus_03](https://github.com/user-attachments/assets/f36dd3e8-9365-47e0-8fe7-2974cb5b4298)# h1 - Hacker's journey
 
 **Päivistys 30.10.2024**: Tehtäväni on vielä kesken,
 koska Tero Karvisen kurssin sivuston mukaan,
@@ -125,4 +125,17 @@ muistitikkulleni. Se on kooltaan lähes 4,3 GB, mikä kyllä mahtuu 57 GB vapaa 
 Kun Kali Linuxin iso -kuvakeen on ladattu "Downloads" -kansioon, niin konfiguroin sitä ensin
 Oracle VM Virtualboxissa (Version 7.0.12 r 159484 (Qt5.15.2), 2023 Oracle) Tero Karvisen Linux
 Debian asennusohjeen mukaisesti (https://terokarvinen.com/2021/install-debian-on-virtualbox/).
+Varmistin myös toiselta lähteeltä kuten Nakivo Team, miten asennetaan Kali Linux
+Virtualboxiin (https://www.nakivo.com/blog/how-to-install-kali-linux-on-virtualbox/).
+
+Alla olevat kuvat todistavat tarkkaan Kali -asennuksen muistitikulleni
+
+#### I) Luodaan uuden virtuaalikoneen
+Nimetään oikea tarkka nimen virtuaalikoneelle, kuten TeroKarvinenTunkeutumisTestausKaliLinux.
+Tallenetaan se muistitikun virtualkoneiden hakemistoon, ja tuodaan ladatun live iso -kuvakeen
+Kali Linuxista. Kuten Debian asennusohjeessa huomioitiin, "Skip Unattended Installation"
+pitää olla valittu.
+
+![Jansson_Tunkistestaus_laksy_h1_a_kalin_asennus_03](https://github.com/user-attachments/assets/be7249db-64f4-43ac-9ead-dc937e038eaf)
+
 
