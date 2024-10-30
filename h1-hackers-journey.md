@@ -154,3 +154,17 @@ suositeltiin 60 GB. Noudataan Teron ohjeeta.
 
 ![Jansson_Tunkistestaus_laksy_h1_a_kalin_asennus_06](https://github.com/user-attachments/assets/560adf21-1add-40d9-9f70-6cbabaa53501)
 
+
+Näköjään Virtualbox kaatui kokonaan ennen kun pystyin asentamaan virtuaalikoneen.
+Joudun toistamaan edelliset vaiheet uudestaan.
+
+Toisen yrityksen jälkeen saimme luotuaan Kali Linux Live virtuaalikoneen,
+nimeltään TeroKarvinenTunkeutumisTestausKaliLinux. Tässä auttoi sekin,
+että ladattu Kali Live ISO -kuvake on myös muistitikkussa.
+
+![Jansson_Tunkistestaus_laksy_h1_a_kalin_asennus_07](https://github.com/user-attachments/assets/fed2f502-0e65-42be-9eea-4e5ea4feee23)
+
+![Jansson_Tunkistestaus_laksy_h1_a_kalin_asennus_08](https://github.com/user-attachments/assets/e20a2148-f0cd-4dd6-a60a-2d152871694e)
+
+
+
