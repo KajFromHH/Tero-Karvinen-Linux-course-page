@@ -78,7 +78,7 @@ https://finlex.fi/fi/oikeus/kko/kko/2003/20030036
 
 Tehtävään suositeltiin Kali Linuxia Virtualboxissa käyttöä.
 
-### Live iso -levykuva
+### Live iso -levykuva.
 
 Koska Tero Karvisen Tunkeutumistestaus -sivustossa oleva linkki
 https://cdimage.kali.org/kali-2021.1/kali-linux-2021.1-live-amd64.iso
@@ -97,7 +97,7 @@ Koska ajomme suorittaa tunkeutumistestauksia Kali Linux, niin ymmärrän tietotu
 miksi opettaja suosittelee Live Boot -versio Kalista (mm. ettei minun laptopin kiintolevy kärsii vahingossa).
 Lähde: https://www.linux.com/training-tutorials/live-booting-linux/.
 
-### Formattointi käytössä oleva muistitikku
+### Formattointi käytössä oleva muistitikku.
 
 Minulla sattui vanha Linux Mint -muistitikku, jonka pitkään aikaan käytänyt (sanotaan noin 2 vuotta).
 Kyseessä on SanDisk 3.2Gen1 USB -muistikku. Koska muistitikkussa on jo Linux Mint distro,
@@ -117,7 +117,7 @@ Uusien lähteiden mukaan, kuten Sagar Sharma It's FOSS -sivustolta (https://itsf
 Virtualbox pystyy nykyään ajaa Live Boot iso -kuvakeet suoraan muistitikusta. Tämä oli uutta minulle,
 koska aiemmassa Linux -kurssissa käytimme nimeomaan .ova tai itse Virtualbox version Linuxista (tarkkaan ottaen Ubuntu Server).
 
-### Asennan vihdoin Kalin muistitikkuun
+### Asennan vihdoin Kalin muistitikkuun.
 
 Asennan vihdoin Linux Kalin Live Boot -version, ns. https://cdimage.kali.org/kali-2024.3/kali-linux-2024.3-live-amd64.iso,
 muistitikkulleni. Se on kooltaan lähes 4,3 GB, mikä kyllä mahtuu 57 GB vapaa olevaan muistitikulle.
@@ -130,7 +130,7 @@ Virtualboxiin (https://www.nakivo.com/blog/how-to-install-kali-linux-on-virtualb
 
 Alla olevat kuvat todistavat tarkkaan Kali -asennuksen muistitikulleni
 
-#### I) Luodaan uuden virtuaalikoneen
+#### I) Luodaan uuden virtuaalikoneen.
 Nimetään oikea tarkka nimen virtuaalikoneelle, kuten TeroKarvinenTunkeutumisTestausKaliLinux.
 Tallenetaan se muistitikun virtualkoneiden hakemistoon, ja tuodaan ladatun live iso -kuvakeen
 Kali Linuxista. Kuten Debian asennusohjeessa huomioitiin, "Skip Unattended Installation"
@@ -138,4 +138,19 @@ pitää olla valittu.
 
 ![Jansson_Tunkistestaus_laksy_h1_a_kalin_asennus_03](https://github.com/user-attachments/assets/be7249db-64f4-43ac-9ead-dc937e038eaf)
 
+### II) Konfiguroidaan prosessin ja muistin.
+Laitetaan noin 1 CPU ja 4000 MB Teron ohjeiden ja suosituksien mukaan.
+Muut jätetään silleen (ts. ei muokata).
+
+![Jansson_Tunkistestaus_laksy_h1_a_kalin_asennus_04](https://github.com/user-attachments/assets/fe2c8140-041a-4f54-9ade-7862bbeca72e)
+
+### III) Konfiguroidaan kiintolevyä.
+Ohjeiden mukaan kiintolevyssä pitää olla minimi 20 GB, kun taas Teron ohjestuksessa
+suositeltiin 60 GB. Noudataan Teron ohjeeta.
+
+![Jansson_Tunkistestaus_laksy_h1_a_kalin_asennus_05](https://github.com/user-attachments/assets/fcecd805-3d30-43ba-a03d-43dce6c8f779)
+
+### IV) Tarkistetaan yhteenveto ja hyväksytään painamalla "Finish".
+
+![Jansson_Tunkistestaus_laksy_h1_a_kalin_asennus_06](https://github.com/user-attachments/assets/560adf21-1add-40d9-9f70-6cbabaa53501)
 
