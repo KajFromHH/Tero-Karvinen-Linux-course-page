@@ -1,4 +1,4 @@
-![Jansson_Tunkistestaus_laksy_h1_a_kalin_asennus_03](https://github.com/user-attachments/assets/f36dd3e8-9365-47e0-8fe7-2974cb5b4298)# h1 - Hacker's journey
+# h1 - Hacker's journey
 
 **Päivistys 30.10.2024**: Tehtäväni on vielä kesken,
 koska Tero Karvisen kurssin sivuston mukaan,
