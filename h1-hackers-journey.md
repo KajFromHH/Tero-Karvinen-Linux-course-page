@@ -65,4 +65,13 @@ https://finlex.fi/fi/oikeus/kko/kko/2003/20030036
 ---
 ---
 
-## a)
+## a) Kali Linux asennus Virtualboxiin.
+
+Tehtävään suositeltiin Kali Linuxia Virtualboxissa käyttöä.
+
+Koska Tero Karvisen Tunkeutumistestaus -sivustossa oleva linkki
+https://cdimage.kali.org/kali-2021.1/kali-linux-2021.1-live-amd64.iso
+on mennyt vanhaksi, joudun asentamaan suoraan Kalin orgaanisaation sivustolta,
+https://www.kali.org/get-kali/#kali-live.
+
+Linkin mukaan pitää asendaa Live amd64 iso -
