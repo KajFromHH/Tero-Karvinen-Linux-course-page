@@ -78,6 +78,8 @@ https://finlex.fi/fi/oikeus/kko/kko/2003/20030036
 
 Tehtävään suositeltiin Kali Linuxia Virtualboxissa käyttöä.
 
+### Live iso -levykuva
+
 Koska Tero Karvisen Tunkeutumistestaus -sivustossa oleva linkki
 https://cdimage.kali.org/kali-2021.1/kali-linux-2021.1-live-amd64.iso
 on mennyt vanhaksi, joudun asentamaan suoraan Kalin orgaanisaation sivustolta,
@@ -93,8 +95,25 @@ Linuxin distrot muistivälineissä ilman minkäälaista muokausta tai tarvetta p
 
 Koska ajomme suorittaa tunkeutumistestauksia Kali Linux, niin ymmärrän tietoturvan ja -suojan näkökulmasta
 miksi opettaja suosittelee Live Boot -versio Kalista (mm. ettei minun laptopin kiintolevy kärsii vahingossa).
-https://www.linux.com/training-tutorials/live-booting-linux/
+Lähde: https://www.linux.com/training-tutorials/live-booting-linux/.
+
+### Formattointi käytössä oleva muistitikku
 
 Minulla sattui vanha Linux Mint -muistitikku, jonka pitkään aikaan käytänyt (sanotaan noin 2 vuotta).
 Kyseessä on SanDisk 3.2Gen1 USB -muistikku. Koska muistitikkussa on jo Linux Mint distro,
 joudun formattoimaan kokonaan muistitikkua.
+
+Formattoinissa tapahtui semmoinen vika, että USB esintyy kaksi USB -ajuria (USB Driver D:/ ja E:/).
+Google haulla sain seuraavan opastus, miten voin korjata vian Powershellissä:
+https://gist.github.com/krisbolton/fc34ee629721d979f9f4275cba8dcfe5
+Ohjeet korjaasi minun ongelmaani. Nyt USB:ssä on vain yksi USB -ajuri (USB Driver E:/).
+Formattoin vielä yhden kerran USB -muistivälineen.
+Virus-skannasin myös muistitikun F-Securen Safe avulla. Ei yhtäkään haitallista tiedostoja ja dataa.
+
+Alla olevassa kuvassa on minun suoritus noudetuaan kyseiseen ohjeen:
+![Jansson_Tunkistestaus_laksy_h1_a_kalin_asennus_02](https://github.com/user-attachments/assets/4464671c-f096-4eb8-9b52-665a14fef55b)
+
+Uusien lähteiden mukaan, kuten Sagar Sharma It's FOSS -sivustolta (https://itsfoss.com/virtualbox-boot-from-usb/), 
+Virtualbox pystyy nykyään ajaa Live Boot iso -kuvakeet suoraan muistitikusta. Tämä oli uutta minulle,
+koska aiemmassa Linux -kurssissa käytimme nimeomaan .ova tai itse Virtualbox version Linuxista (tarkkaan ottaen Ubuntu Server).
+
