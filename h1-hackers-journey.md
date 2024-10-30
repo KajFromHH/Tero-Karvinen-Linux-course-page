@@ -1,6 +1,6 @@
 # h1 - Hacker's journey
 
-Päivistys 30.10.2024: Tehtäväni on vielä kesken,
+**Päivistys 30.10.2024**: Tehtäväni on vielä kesken,
 koska Tero Karvisen kurssin sivuston mukaan,
 kohdassa Läksyt -luvussa (https://terokarvinen.com/tunkeutumistestaus/),
 läksyjen linkki piti lähettää viimeistään 24 h ennen seuraava luento,
