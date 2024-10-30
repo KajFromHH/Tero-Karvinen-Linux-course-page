@@ -117,3 +117,8 @@ Uusien lähteiden mukaan, kuten Sagar Sharma It's FOSS -sivustolta (https://itsf
 Virtualbox pystyy nykyään ajaa Live Boot iso -kuvakeet suoraan muistitikusta. Tämä oli uutta minulle,
 koska aiemmassa Linux -kurssissa käytimme nimeomaan .ova tai itse Virtualbox version Linuxista (tarkkaan ottaen Ubuntu Server).
 
+### Asennan vihdoin Kalin muistitikkuun
+
+Asennan vihdoin Linux Kalin Live Boot -version, ns. https://cdimage.kali.org/kali-2024.3/kali-linux-2024.3-live-amd64.iso,
+muistitikkulleni. Se on kooltaan lähes 4,3 GB, mikä kyllä mahtuu 57 GB vapaa olevaan muistitikulle. 
+
