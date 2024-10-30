@@ -166,5 +166,14 @@ että ladattu Kali Live ISO -kuvake on myös muistitikkussa.
 
 ![Jansson_Tunkistestaus_laksy_h1_a_kalin_asennus_08](https://github.com/user-attachments/assets/e20a2148-f0cd-4dd6-a60a-2d152871694e)
 
+Huomautus, että tallensin vahingossa virtuaalikoneen C:/ -kiintolevyyn vaikka se piti tallentaa muistitikkuun.
+Onneksi ongelma pystyttiin helposti ratkaista painamalla hiiren oikealla "TeroKarvinenTunkeutumisTestausKaliLinux"
+nimikettä Virtualboxia ja painaa "Move" taulukkosta. Se siirtää kaikki Virtualbox -tiedostot uuteen paikaan,
+ja jättää vanhan paikan tyhjäksi.
+
+Kun TeroKarvinenTunkeutumisTestausKaliLinux -virtuaalikone on nyt muistitikkussa, voin aina poista se Virtualbox taulukosta,
+painamalla "Remove only" ja tuoda se uudestaan muistitikkusta klikkamalla "Add" (huomaa, että "Import" hakee vain .ova -tiedostot.
+Minun tallentama virtuaalikone on .vbox -tiedosto!). Nyt voin rauhassa nukkua, ettei koneeni kiintolevyssä pyörii 
+eikä fyysisesti tallenettu Kali Linuxin Live -virtuaalikone tunkeutumistestauken työkaluineen.
 
 
