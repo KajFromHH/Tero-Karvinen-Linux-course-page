@@ -138,19 +138,19 @@ pitää olla valittu.
 
 ![Jansson_Tunkistestaus_laksy_h1_a_kalin_asennus_03](https://github.com/user-attachments/assets/be7249db-64f4-43ac-9ead-dc937e038eaf)
 
-### II) Konfiguroidaan prosessin ja muistin.
+#### II) Konfiguroidaan prosessin ja muistin.
 Laitetaan noin 1 CPU ja 4000 MB Teron ohjeiden ja suosituksien mukaan.
 Muut jätetään silleen (ts. ei muokata).
 
 ![Jansson_Tunkistestaus_laksy_h1_a_kalin_asennus_04](https://github.com/user-attachments/assets/fe2c8140-041a-4f54-9ade-7862bbeca72e)
 
-### III) Konfiguroidaan kiintolevyä.
+#### III) Konfiguroidaan kiintolevyä.
 Ohjeiden mukaan kiintolevyssä pitää olla minimi 20 GB, kun taas Teron ohjestuksessa
 suositeltiin 60 GB. Noudataan Teron ohjeeta.
 
 ![Jansson_Tunkistestaus_laksy_h1_a_kalin_asennus_05](https://github.com/user-attachments/assets/fcecd805-3d30-43ba-a03d-43dce6c8f779)
 
-### IV) Tarkistetaan yhteenveto ja hyväksytään painamalla "Finish".
+#### IV) Tarkistetaan yhteenveto ja hyväksytään painamalla "Finish".
 
 ![Jansson_Tunkistestaus_laksy_h1_a_kalin_asennus_06](https://github.com/user-attachments/assets/560adf21-1add-40d9-9f70-6cbabaa53501)
 
