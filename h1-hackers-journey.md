@@ -83,4 +83,7 @@ https://cdimage.kali.org/kali-2021.1/kali-linux-2021.1-live-amd64.iso
 on mennyt vanhaksi, joudun asentamaan suoraan Kalin orgaanisaation sivustolta,
 https://www.kali.org/get-kali/#kali-live.
 
-Linkin mukaan pitää asendaa Live amd64 iso -
+Linkin mukaan pitää asentaa live-amd64.iso -levykuvan versio Kali Linuxista,
+joka näkyy alla olevassa kuvassa:
+![Jansson_Tunkistestaus_laksy_h1_a_kalin_asennus_01](https://github.com/user-attachments/assets/d5ee44e4-4648-466d-a0e6-7f4154993e03)
+
