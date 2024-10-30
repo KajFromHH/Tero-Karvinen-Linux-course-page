@@ -87,3 +87,14 @@ Linkin mukaan pitää asentaa live-amd64.iso -levykuvan versio Kali Linuxista,
 joka näkyy alla olevassa kuvassa:
 ![Jansson_Tunkistestaus_laksy_h1_a_kalin_asennus_01](https://github.com/user-attachments/assets/d5ee44e4-4648-466d-a0e6-7f4154993e03)
 
+Toisin sanoen, meidän täytyy asentaa Linux Kaliin johonkin ulkoiseen muistivälineen kuten CD-ROM tai muistitikku.
+Linux Foundation -sivuston Jack Wallen kirjottajan mukaan, Live Boot on siinä hyvä valinta, että voimme ajaa
+Linuxin distrot muistivälineissä ilman minkäälaista muokausta tai tarvetta pääkoneen kiintolevyyn.
+
+Koska ajomme suorittaa tunkeutumistestauksia Kali Linux, niin ymmärrän tietoturvan ja -suojan näkökulmasta
+miksi opettaja suosittelee Live Boot -versio Kalista (mm. ettei minun laptopin kiintolevy kärsii vahingossa).
+https://www.linux.com/training-tutorials/live-booting-linux/
+
+Minulla sattui vanha Linux Mint -muistitikku, jonka pitkään aikaan käytänyt (sanotaan noin 2 vuotta).
+Kyseessä on SanDisk 3.2Gen1 USB -muistikku. Koska muistitikkussa on jo Linux Mint distro,
+joudun formattoimaan kokonaan muistitikkua.
