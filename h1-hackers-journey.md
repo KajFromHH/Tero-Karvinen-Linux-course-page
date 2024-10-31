@@ -132,6 +132,19 @@ Lähde: Hutchins, E. M., Cloppert, M. J., Amin, R. M. s.a. Intelligence-Driven C
 
 ![Jansson_Tunkistestaus_laksy_h1_x_tiivistelmät_03](https://github.com/user-attachments/assets/de9d9b53-cb64-4641-b3ae-611fe33c6dcf)
 
+The Art of Hacking on kurssivideosarja, joka opastaa ja autaa opiskelijaa tietoturvan urakehityksessä. Opiskelija opii fundamentalit liityen eetiset hakkerointia ja tunkeutumistestauksen tekniikat. Tehtäväannon mukaan keskitymme sarjasta neljänteen oppituntiin: aktiivinen havannointi / kohdetiedostelu (eng. active recon).
+
+#### Kommenteja
+* Pitää ymmärtää passivinen recon ja aktiivinen recon erovaisuudet.
+--> Passiivinen recon ei lähetä mitään paketteja suoraan kohdistetuun ympäristöön. On näkymätön lokitiedostolle (porttiskannaus).
+--> Aktiivinen recon lähetää informaatioita kohdistetuun verkkoon. Hälyttää, kun joku tarkistaa lokitiedostot (porttiskannaus).
+Tekee enemmän skannauksia kuten haavoittuvuus skannaukset, tällöin suoritaa enemmän toimintaa kuin pasiivinen (ts. paljon meluisempaa).
+
+* Kohdeita on liian paljon ja on vain rajatettu aikaa. Kohdetiedostelu on avain, jolla voimme kohdistaa ääretön datasta oikeat systeemit ja palveluita mihin voimme hyökätä.
+
+* Kohdetiedostelun metoodit ovat porttiskannaus, web palvelun arvostelu (Web Service Review) ja haavoittuvuus skannaus.
+
+* 
 
 Lähde:https://www.oreilly.com/videos/the-art-of/9780135767849/9780135767849-SPTT_04_00/
 
