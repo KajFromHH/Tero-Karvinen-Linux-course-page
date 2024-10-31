@@ -288,26 +288,26 @@ Laitan pois päältä ruksamalla sen pois.
 ![Jansson_Tunkistestaus_laksy_h1_a_kalin_asennus_12](https://github.com/user-attachments/assets/c584890a-e507-4cb3-8981-83619a06acc8)
 
 
-
 B) **Varmista omasta host-koneesta, että siltäkin on otettu kaikki netit pois!**
 Tämä koskee sekä Ethernet että Wifi verkot. Minun täytyy tarkistaa sekä järjestelmähallinnasta Settings > Network & Internet,
 alla oikeassa olevaa nettiyhteys pikakuvake että Powershellillä TestConnection, tarkkaan ottaen kommennolla
     Test-Connection -TargetName www.google.com -Traceroute
 
-B) **ping 8.8.8.8** ja **ping www.google.com**
+![Jansson_Tunkistestaus_laksy_h1_a_kalin_asennus_13](https://github.com/user-attachments/assets/cbb25a10-f244-479e-844b-8f8de425dab8)
+![Jansson_Tunkistestaus_laksy_h1_a_kalin_asennus_14](https://github.com/user-attachments/assets/bc66611e-b314-456e-bc2e-cb0fd1c5f672)
+![Jansson_Tunkistestaus_laksy_h1_a_kalin_asennus_15](https://github.com/user-attachments/assets/e6e6a3d9-fa15-4bc6-81e2-07cfc546772e)
+
+Triplatarkistin Test-Connection kommentoa.
+
+C) **ping 8.8.8.8** ja **ping www.google.com**
 Kun kummastakaan ei tulee yhteyksiä, esim. "ping www.google.com: Temporary failure in name resolution" (Kali Linux)
 ja "ping: unknown host www.google.com" (Metasploitable 2) niin nettiyhteys on pois suljettu.
 Jos tulee yksikin yhteyslähetys, en saa missään nimessä tehdä testausta.
 
+![Jansson_Tunkistestaus_laksy_h1_a_kalin_asennus_16](https://github.com/user-attachments/assets/7199c377-d03a-4e71-ac0f-6add6438dea2)
 
-
-
-C) **Varmista omasta host koneesta, että siltäkin on otettu kaikki netit pois!**
-Tämä koskee sekä Ethernet että Wifi verkot. Minun täytyy tarkistaa sekä järjestelmähallinnasta Settings > Network & Internet,
-alla oikeassa olevaa nettiyhteys pikakuvake että Powershellillä TestConnection, tarkkaan ottaen kommennolla
-    Test-Connection -TargetName www.google.com -Traceroute
-
-
+Kuvasta näkee, että olen pinganut moneen kertaan (laskujen mukaan yli 6-8 kertaa) sekä 8.8.8.8 että www.google.com,
+enkä saanut kummasta responsia. Eli verkko on suljettu pois TT Kali Linux virtuaalikoneesta ja saan suoritaa testausta.
 
 
 
