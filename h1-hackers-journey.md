@@ -86,6 +86,11 @@ kuntapalvelimeen". Toisin sanoen, hanke oli liian riskimäistä kunnalle, vaikka
 ja varovaisuutta, erityisesti ilmaisista palveluista. Lisäksi kunnat valitti, miksi viestitti Twitterissä, eikä
 suoraan heille.
 
+** Lisäksi he ovat järjestämä korkeakoululle kouluhaaste, samaa idea kuin kuntahaaste. Tällä kerta, löytyneet haavoituksista ilmoitetaan julkisesti.
+
+** Keskusteltiin backboundista / bookboundista. Iiro hyvin huomioi, että suljetut ohjelmistot ovat suosittelevempaa, sillä julkiset ohjelmistot
+kuka vaan (mm. tietoturvatutkija) voi osallistua. Suljettuihin pääse vaan kutsun tai oikeudet backbound -järjestäjiltä.
+F-Secure backbound oli Suomalaisia ensimmäisiä julkaistettu backbound (vaati kovaa "matuureja").
 
 Lähteet: 
 
