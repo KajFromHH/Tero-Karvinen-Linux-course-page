@@ -28,7 +28,44 @@ mm. bug bounty-ohjelmista, Team Whackista sekä valkohattuhakkeriryhmästä Team
 järjestimistä ilmaisista murtotestauksista.
 
 #### Kommenteja
--
+- Podcastin ensimmäisessä jaksossa he vielä pohtivat sopivaa heidän kartanostudiolle.
+Yleisö pystyi lähettämään ehdouksia hashtagilla #hakkerit.
+
+-- Viikon uutisia
+
+  I) Simjack uhka on vakavampi kuin Simswap. Asiasta huomioi Twitter entisen toimitusjohtaja.
+    * Uutinen koski SAT:een lisäysominaisuuden olevaan havoittuvuuden, joka ei ole esinny
+monessa paikoissa eikä suuren osa väestöstä. Eli haavoittuvuus koski lähinnä hyvin tarkkaan ja rajattuun ryhmään. 
+    * Podcastissa huomioittiin, että teleoperattorin vaihto on hyvin erilaista Amerikassa verrattuna Suomeen.
+    * Tomi Tuominen kritisoi podcastissa, että uutiseen reagointiin liian herkkäästi. Hän toivosi 
+uutislähettäjiltä harkkinavaraisempaa viestintää ja parempaa taustatietojen tarkistusta,
+ts. lähdekriitisyyttä. 
+    * Hän kommentoi koko jutun ns. "pelko uutisointi", eli tehtiin kärpäsestä härän.
+Häntä kismitti erityisesti faktojen liiotellua markkinatarkoituksiin.
+
+  II) Linux Malware haittaohjelma on Attacklandscape uudemman rapportin mukaan
+  pääsyt ohi, ts. edelläkävellyt, Microsoft Malware.
+    * Historiallinen hetki.
+    * Uutinen on todella merkkitävä, sillä monet IoT laitteet, kuten Telnet,
+käyttävät Linuxia.
+    * Tämä on ollut Linuxissa pitkään ollut ja toivottu määränpää.
+    * "Simple as the Best" ja "Done as the Best".
+
+  III) Pohjois-Korean pääkaupungissa Pyongyangissa järjestettään virtuaalivaluuta, "blockchain cryptocurrency" konferenssi.
+Ihmeellistä, miten raskasti sanktiottu maa oli yhtäkkiä kiinnostunut kryptovaluutasta.
+
+-- Viikon vierashaastattelu. Iiro Uusitalo, ulkomaassa tunnetaan paremman "Liro" L -merkkillä.
+* Hän on erkioistunut erityisesti Linux ja Infra ("lähellä omaa sydäntä").
+* Jountajat ottivat ylös TeamWhale, eli Ylessä tuotettu dokumenttisarja, jossa
+kuvailtiin mahdollisimman hyvin realistisesti hakkerointia. Mikko Hyppönen
+kehui sarjasta kommentilla "oikeesti toteuttu oikealla työkalulla".
+* Iiro mainitisi Team Rot (saksan sanasta "punainen"), joka perustui
+yhdessä Pasilan Hacklabissa. Hän sanoi, että tiimin meinikki oli niin hyvä
+että kaveriryhmä jatkoi toiminnansa tapahtuman jälkeen. Ryhmä on aktiivinen myös
+vapaa-aikana.
+* Team Rot koostuu kuusi monipuolista asiantuntjoita / osamispuolia, mm. Pythonilla SQL Injektiota, Webbend testauksia,
+Linux / Infra erikoisuus.
+
 
 Lähteet: 
 
