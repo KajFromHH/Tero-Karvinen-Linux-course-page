@@ -266,6 +266,8 @@ Valitsemme valikkosta ensimmäisen vaihtoehdon, "Live system (amd64)". Kestää 
 Kun se on valmis, pääsin seuraavaan graafisen käyttöliitymään:
 ![Jansson_Tunkistestaus_laksy_h1_a_kalin_asennus_10](https://github.com/user-attachments/assets/f7a32521-7011-4164-b077-1f5e25a65730)
 
+## b) Verkkojen täydellinen irrotus TT Kali Linux -virtuaalikoneesta.
+
 Ennen kun rupean aloita testauksen, Tero huomioi tärkeän Valkamon artikkelin lukemista
 (tämä olisi pitänyt lukee, ennen kun olisin asentanut yhtäkään virtuaalikonetta):
 ![Jansson_Tunkistestaus_laksy_h1_a_kalin_asennus_11](https://github.com/user-attachments/assets/3d5cf22b-69fd-406c-8dff-16bd46bf4ddd)
@@ -274,7 +276,7 @@ Lähde: https://tuomasvalkamo.com/PenTestCourse/week-2/
 
 Artikkelissa mainitiin tärkeät kohdat:
 - **Pitää aina testata ja irota kaikki netit ennen todellista testausta!**
-Artikkelissa mainitiin päätavat jolla varmistetaan että netti todella pois irrottu:
+Artikkelissa mainitiin päätavat jolla varmistetaan että netti todella pois irrottu, mikä on myös tehtäväannon b -vaihe:
 A) **Varmista TT Kali Linuxin Network asetuksesta (Virtualboxista), että
 verkot ovat poistettu, ts. ruksa pois "Cable Connected".**
 
