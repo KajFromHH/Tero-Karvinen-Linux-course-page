@@ -104,6 +104,9 @@ Jokainen pitää kehittää oman ihmisarvon. Tomi sanoi puolestaan, että omat i
 Mikko myös suosittelee lukea monipuolista, eikä vain yhtä kirjaa (eikä yhtä osa-alueeta). Esim. hän lukee
 muun muassa kasinosta (ja heidän työntekjöiden epäluotamusta muihin), vaikka olisi itse IT ja tietoturvan asiantuntija.
 
+** Hovimestari suositus: Iiro suosittelee yksilöllistä verkkotunnusta sähköpostiosoiteen palvelujen rekisteröintiin.
+Lisäksi suositelttin "Irtoviiksi mies" kirja.
+
 Lähteet: 
 
 https://www.withsecure.com/fi/whats-new/podcasts/herrasmieshakkerit
