@@ -301,6 +301,8 @@ alla oikeassa olevaa nettiyhteys pikakuvake että Powershellillä TestConnection
 
 Triplatarkistin Test-Connection kommentoa.
 
+Lähde: https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/test-connection?view=powershell-7.4
+
 C) **ping 8.8.8.8** ja **ping www.google.com**
 Kun kummastakaan ei tulee yhteyksiä, esim. "ping www.google.com: Temporary failure in name resolution" (Kali Linux)
 ja "ping: unknown host www.google.com" (Metasploitable 2) niin nettiyhteys on pois suljettu.
@@ -310,6 +312,51 @@ Jos tulee yksikin yhteyslähetys, en saa missään nimessä tehdä testausta.
 
 Kuvasta näkee, että olen pinganut moneen kertaan (laskujen mukaan yli 6-8 kertaa) sekä 8.8.8.8 että www.google.com,
 enkä saanut kummasta responsia. Eli verkko on suljettu pois TT Kali Linux virtuaalikoneesta ja saan suoritaa testausta.
+
+Huomaa, että jatkoin kirjoittamista vasta kun suoritin testaukseen loppuun. Githubin on pois käytöstä,
+kun suljin kaikki netit koneestani.
+
+## c) Testaa nmap -kommentoa ja analysoi.
+
+Kun olin aivan varmana, että kaikki netit ovat irrottu pois koneestani, suoritin seuraava porttiskannauksen kommentoa TT Kali Linuxissa:
+    nmap -A localhost
+
+Alla olevassa kuvassa näkyy tulokset:
+![Jansson_Tunkistestaus_laksy_h1_a_kalin_asennus_17](https://github.com/user-attachments/assets/57796dd2-4130-4d66-bd84-ce9a6a6103fe)
+
+Kuvasta analysoin, ettei porttiskannaus pystynyt löytämään yhtäkään DNS palvelimia. Tämä on tarkoituskin, sillä
+se todistaa virtuaalikoneessa ei ole toimivaa nettiä ja tällöin ei pääse mihinkään ulkoiseen palvelimeen.
+Porttiskannaus ilmoittaa, että localhost (127.0.0.1) pääkone (host) on päällä (0,00044 sekunnilla viivellä).
+Sitten porttiskannaus löysi muita osoitteet localhostille (joka ei ole skannattu)
+mm. ::1, joka pikaisella Google haulla mukaan on kompressoitu formaatti IPV6 loopback
+osoite (0:0:0:0:0:0:0:1). Toisin sanoen, se on IPV6 -osoiteversio localhostista
+(joka on IPV4:ssä tuttu 127.0.0.1 -osoite).
+
+Kaikki 1000 skannatut portit localhost ovat huomiotta tilassa eikä esittää
+1000 suljetuja tcp porteja. Eli nmap -porttiskannauksen kommento pystyi 
+skannamaan vain yhden 1 IP-osoiteen eli localhosti (jonka käyttää tällä yksi host -kone)
+0,86 sekunnissa, mikä oli nopee. Mutta tämä oli tarkoituskin, koska meillä kaikki netti
+pois päältä.
+
+## d) Kahden daemon (demoniin) porttiskannauksen.
+Tämä jäi valettavasti väliin, sillä pystyn asentamaan daemonit vain verkkon kautta.
+Tämä tarkoitti, että joudun lopetamaan koko testauksen, asentaa kaikki netit takaisin
+ja sitten käynnistä TT Kali TT uudestaan, asentaa demoniit, jne.
+
+Tämä ei tekee hyvää minun pakko-oireinen häiriölleni. Lisäksi minulla ei ole paljonkaan
+kokemusta daemonista, joten en lyhyessä ajassa pystynyt keksimään hyviä demonia.
+Yritin kokeilla Someshwaran M. opastusta, mutta se osoittautui työläksi.
+Lähde: https://somesh-rokz.medium.com/how-to-create-daemons-in-linux-with-a-simple-hello-world-bash-example-e739dea78284
+
+Keskityn sen sijaan Metasploitable testaukseen.
+
+## e) Metasploitable asennus.
+Noudatin Valkamon ohjestusta asennettessaan Metasploitable 2.
+
+Päivistys 31.10.2024, klo 22.21: En ehtinyt suorittaa Metasploitable asennuksen, sillä
+Helgan Club Tuvalla oli klo 17 maissa torstaina 31.10.2024 Halloween tapahtuma,
+johon lupaudin olemaan apukätenä tapahtuman järjestyksessä.
+Pahoittelut.
 
 
 
