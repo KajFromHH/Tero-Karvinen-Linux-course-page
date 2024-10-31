@@ -93,6 +93,17 @@ kuka vaan (mm. tietoturvatutkija) voi osallistua. Suljettuihin pääse vaan kuts
 F-Secure backbound oli Suomalaisia ensimmäisiä julkaistettu backbound (vaati kovaa "matuureja"). Backboundissa
 on paljon korjattavaa, mukaan lukien bugeja jotka eivät ole tietoturvauhkia.
 
+** Mikko oli iloinen Iiro kommentista miten bookbound mainostetaan ja mikä on se tosi elämässä (26:00 - 26:40 aikakohta).
+
+** "Recon" -vaihe backboundissa kasvaa koko ajan, ensimmäinen löytäjä saa suuren pottin.
+
+** Ajankohdassa 29:30 Iiro kysyi jountajilta, miten he ylläpitävät heidän osaamista. Mikon mukaan "hujarisyndrooma"
+on hyvin yleistä tässä alalla. Kurinalaisuus ja ajankäyttö optimointi on Mikon mukaan paras ratkaisu.
+Mikko itse lukee joka päivä 2 - 300 työkaluista liittyvää artikkeleita (taitolaji). Ei ole oikopolkkua.
+Jokainen pitää kehittää oman ihmisarvon. Tomi sanoi puolestaan, että omat isot asettetut tavoitteet motivoi osaamista.
+Mikko myös suosittelee lukea monipuolista, eikä vain yhtä kirjaa (eikä yhtä osa-alueeta). Esim. hän lukee
+muun muassa kasinosta (ja heidän työntekjöiden epäluotamusta muihin), vaikka olisi itse IT ja tietoturvan asiantuntija.
+
 Lähteet: 
 
 https://www.withsecure.com/fi/whats-new/podcasts/herrasmieshakkerit
