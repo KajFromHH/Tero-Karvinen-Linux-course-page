@@ -257,6 +257,59 @@ Koska **TeroKarvinenTunkeutumisTestausKaliLinux** on todella pitkä nimike joka 
 lyhennän se jatkossa nimellä **TT Kali Linux** (TT tule tunkeutumistestauksesta).
 
 ### Käynnistetään Kali Linux.
-Ajatessaan TT Kali Linux painamalla "Start" Virtualboxissa (katso kuva )
+Ajatessaan TT Kali Linux painamalla "Start" Virtualboxissa (katso kuva toiseksi edellinen kuva),
+ilmestyy seuraava valikkonäyttö:
+![Jansson_Tunkistestaus_laksy_h1_a_kalin_asennus_09](https://github.com/user-attachments/assets/e8463fac-84b0-425b-87cf-5ad6ad31ddfb)
+
+Valitsemme valikkosta ensimmäisen vaihtoehdon, "Live system (amd64)". Kestää hetken kun se käynnistyy.
+
+Kun se on valmis, pääsin seuraavaan graafisen käyttöliitymään:
+![Jansson_Tunkistestaus_laksy_h1_a_kalin_asennus_10](https://github.com/user-attachments/assets/f7a32521-7011-4164-b077-1f5e25a65730)
+
+Ennen kun rupean aloita testauksen, Tero huomioi tärkeän Valkamon artikkelin lukemista
+(tämä olisi pitänyt lukee, ennen kun olisin asentanut yhtäkään virtuaalikonetta):
+![Jansson_Tunkistestaus_laksy_h1_a_kalin_asennus_11](https://github.com/user-attachments/assets/3d5cf22b-69fd-406c-8dff-16bd46bf4ddd)
+
+Lähde: https://tuomasvalkamo.com/PenTestCourse/week-2/
+
+Artikkelissa mainitiin tärkeät kohdat:
+- **Pitää aina testata ja irota kaikki netit ennen todellista testausta!**
+Artikkelissa mainitiin päätavat jolla varmistetaan että netti todella pois irrottu:
+A) **Varmista TT Kali Linuxin Network asetuksesta (Virtualboxista), että
+verkot ovat poistettu, ts. ruksa pois "Cable Connected".**
+
+Avaan TT Kali Linuxin Network asetukset sillä välin kun se pyörii.
+
+![Jansson_Tunkistestaus_laksy_h1_a_kalin_asennus_11](https://github.com/user-attachments/assets/32c35945-f14e-446c-9c57-4539ad2d15f2)
+
+Kuvasta näemme, että TT Kali Linux on vielä yhdistetty NAT -verkostoon, koska "Cable Connected" vielä päällä.
+Laitan pois päältä ruksamalla sen pois.
+
+![Jansson_Tunkistestaus_laksy_h1_a_kalin_asennus_12](https://github.com/user-attachments/assets/c584890a-e507-4cb3-8981-83619a06acc8)
+
+
+
+B) **Varmista omasta host-koneesta, että siltäkin on otettu kaikki netit pois!**
+Tämä koskee sekä Ethernet että Wifi verkot. Minun täytyy tarkistaa sekä järjestelmähallinnasta Settings > Network & Internet,
+alla oikeassa olevaa nettiyhteys pikakuvake että Powershellillä TestConnection, tarkkaan ottaen kommennolla
+    Test-Connection -TargetName www.google.com -Traceroute
+
+B) **ping 8.8.8.8** ja **ping www.google.com**
+Kun kummastakaan ei tulee yhteyksiä, esim. "ping www.google.com: Temporary failure in name resolution" (Kali Linux)
+ja "ping: unknown host www.google.com" (Metasploitable 2) niin nettiyhteys on pois suljettu.
+Jos tulee yksikin yhteyslähetys, en saa missään nimessä tehdä testausta.
+
+
+
+
+C) **Varmista omasta host koneesta, että siltäkin on otettu kaikki netit pois!**
+Tämä koskee sekä Ethernet että Wifi verkot. Minun täytyy tarkistaa sekä järjestelmähallinnasta Settings > Network & Internet,
+alla oikeassa olevaa nettiyhteys pikakuvake että Powershellillä TestConnection, tarkkaan ottaen kommennolla
+    Test-Connection -TargetName www.google.com -Traceroute
+
+
+
+
+
 
 
