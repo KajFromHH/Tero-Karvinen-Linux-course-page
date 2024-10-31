@@ -82,7 +82,9 @@ Linux & Infra, jne.
 tiettyyn kuntaan, koska monissa kunnissa on samaanlaisia sovelluksia. Kun yksi kunta hyökätään, niin muut kunnat hyötyvät.
 Tempaukseen osallistui vain yhdeksän kuntaa, koska suuren osan kuntaryhmästä pelkäsivät jo pelkästä hankeesta "missä hakkerit hakkeroi
 kuntapalvelimeen". Toisin sanoen, hanke oli liian riskimäistä kunnalle, vaikka halutiinkin parantaa heidän palvelimia 
-(sana "hakkeri" on muutoinkin keskusdessamme musta tahrama ja taboo sana).
+(sana "hakkeri" on muutoinkin keskusdessamme musta tahrama ja taboo sana). Tyypillistä suomalaista epävarmuuta
+ja varovaisuutta, erityisesti ilmaisista palveluista. Lisäksi kunnat valitti, miksi viestitti Twitterissä, eikä
+suoraan heille.
 
 
 Lähteet: 
