@@ -144,7 +144,7 @@ Tekee enemmän skannauksia kuten haavoittuvuus skannaukset, tällöin suoritaa e
 
 * Kohdetiedostelun metoodit ovat porttiskannaus, web palvelun arvostelu (Web Service Review) ja haavoittuvuus skannaus.
 
-* Työkaluita on useita: Nmap, Masscan ja Udprotoscanner porttiskannaukselle, EyeWitness web palvelun arvosteluun, ja OpenVAS + Nikto haavoituvuus skannaukselle (sekä verkko että web palvelun). Videossa tehtiin myös harjoituksia (demoja).
+* Työkaluja oli useita: Nmap, Masscan ja Udprotoscanner porttiskannaukselle, EyeWitness web palvelun arvosteluun, ja Nessus + Nikto haavoituvuus skannaukselle (sekä verkko että web palvelun). Videossa tehtiin myös harjoituksia (demoja).
 
 Lähde:https://www.oreilly.com/videos/the-art-of/9780135767849/9780135767849-SPTT_04_00/
 
