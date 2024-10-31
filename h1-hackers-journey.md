@@ -33,7 +33,7 @@ Yleisö pystyi lähettämään ehdouksia hashtagilla #hakkerit.
 
 -- Viikon uutisia
 
-  I) Simjack uhka on vakavampi kuin Simswap. Asiasta huomioi Twitter entisen toimitusjohtaja.
+I) Simjack uhka on vakavampi kuin Simswap. Asiasta huomioi Twitter entisen toimitusjohtaja.
     
 * Uutinen koski SAT:een lisäysominaisuuden olevaan havoittuvuuden, joka ei ole esinny
 monessa paikoissa eikä suuren osa väestöstä. Eli haavoittuvuus koski lähinnä hyvin tarkkaan ja rajattuun ryhmään. 
@@ -47,7 +47,7 @@ ts. lähdekriitisyyttä.
 * Hän kommentoi koko jutun ns. "pelko uutisointi", eli tehtiin kärpäsestä härän.
 Häntä kismitti erityisesti faktojen liiotellua markkinatarkoituksiin.
 
-  II) Linux Malware haittaohjelma on Attacklandscape uudemman rapportin mukaan
+II) Linux Malware haittaohjelma on Attacklandscape uudemman rapportin mukaan
   pääsyt ohi, ts. edelläkävellyt, Microsoft Malware.
 
 * Historiallinen hetki.
@@ -59,7 +59,7 @@ käyttävät Linuxia.
     
 * "Simple as the Best" ja "Done as the Best".
 
-  III) Pohjois-Korean pääkaupungissa Pyongyangissa järjestettään virtuaalivaluuta, "blockchain cryptocurrency" konferenssi.
+III) Pohjois-Korean pääkaupungissa Pyongyangissa järjestettään virtuaalivaluuta, "blockchain cryptocurrency" konferenssi.
 Ihmeellistä, miten raskasti sanktiottu maa oli yhtäkkiä kiinnostunut kryptovaluutasta.
 
 -- Viikon vierashaastattelu. Iiro Uusitalo, ulkomaassa tunnetaan paremman "Liro" L -merkkillä.
@@ -90,7 +90,8 @@ suoraan heille.
 
 ** Keskusteltiin backboundista / bookboundista. Iiro hyvin huomioi, että suljetut ohjelmistot ovat suosittelevempaa, sillä julkiset ohjelmistot
 kuka vaan (mm. tietoturvatutkija) voi osallistua. Suljettuihin pääse vaan kutsun tai oikeudet backbound -järjestäjiltä.
-F-Secure backbound oli Suomalaisia ensimmäisiä julkaistettu backbound (vaati kovaa "matuureja").
+F-Secure backbound oli Suomalaisia ensimmäisiä julkaistettu backbound (vaati kovaa "matuureja"). Backboundissa
+on paljon korjattavaa, mukaan lukien bugeja jotka eivät ole tietoturvauhkia.
 
 Lähteet: 
 
