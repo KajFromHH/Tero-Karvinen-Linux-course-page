@@ -253,4 +253,10 @@ painamalla "Remove only" ja tuoda se uudestaan muistitikkusta klikkamalla "Add" 
 Minun tallentama virtuaalikone on .vbox -tiedosto!). Nyt voin rauhassa nukkua, ettei koneeni kiintolevyssä pyörii 
 eikä fyysisesti tallenettu Kali Linuxin Live -virtuaalikone tunkeutumistestauken työkaluineen.
 
+Koska **TeroKarvinenTunkeutumisTestausKaliLinux** on todella pitkä nimike joka kirjoituksessa,
+lyhennän se jatkossa nimellä **TT Kali Linux** (TT tule tunkeutumistestauksesta).
+
+### Käynnistetään Kali Linux.
+Ajatessaan TT Kali Linux painamalla "Start" Virtualboxissa (katso kuva )
+
 
