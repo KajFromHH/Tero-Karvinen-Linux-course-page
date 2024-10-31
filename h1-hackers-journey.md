@@ -75,7 +75,7 @@ yhdessä Pasilan Hacklabissa. Hän sanoi, että tiimin meinikki oli niin hyvä
 että kaveriryhmä jatkoi toiminnansa tapahtuman jälkeen. Ryhmä on aktiivinen myös
 vapaa-aikana.
 
-** Team Rot koostuu kuusi monipuolista asiantuntjoita / osamispuolia, mm. Pythonilla SQL Injektiota, Webbend testauksia,
+** Team Rot koostuu kuusi monipuolista asiantuntjoita / osamispuolia, mm. Pythonilla SQL Injektiota, "Reversaus" (?), Webbend testauksia,
 Linux & Infra, jne.
 
 
