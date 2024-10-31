@@ -78,6 +78,12 @@ vapaa-aikana.
 ** Team Rot koostuu kuusi monipuolista asiantuntjoita / osamispuolia, mm. Pythonilla SQL Injektiota, "Reversaus" (?), Webbend testauksia,
 Linux & Infra, jne.
 
+** Kuntahaaste, joka oli kunnalle ja kaupungille järjest "tempaus" Twitterin avoimilla kirjeellä. Tempauksessa yritettiin murtotestaus
+tiettyyn kuntaan, koska monissa kunnissa on samaanlaisia sovelluksia. Kun yksi kunta hyökätään, niin muut kunnat hyötyvät.
+Tempaukseen osallistui vain yhdeksän kuntaa, koska suuren osan kuntaryhmästä pelkäsivät jo pelkästä hankeesta "missä hakkerit hakkeroi
+kuntapalvelimeen". Toisin sanoen, hanke oli liian riskimäistä kunnalle, vaikka halutiinkin parantaa heidän palvelimia 
+(sana "hakkeri" on muutoinkin keskusdessamme musta tahrama ja taboo sana).
+
 
 Lähteet: 
 
