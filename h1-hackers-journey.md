@@ -1,6 +1,6 @@
 # h1 - Hacker's journey
 
-**Päivistys 30.10.2024**: Tehtäväni on vielä kesken,
+Päivistys 30.10.2024 (vanha): Tehtäväni on vielä kesken,
 koska Tero Karvisen kurssin sivuston mukaan,
 kohdassa Läksyt -luvussa (https://terokarvinen.com/tunkeutumistestaus/),
 läksyjen linkki piti lähettää viimeistään 24 h ennen seuraava luento,
@@ -8,6 +8,9 @@ ts. viimeistään torstaina 31.10.2024 klo 08:15.
 
 Palautin URL:in Laksuun hyvissä ajoin, koska minulla on muu meno
 torstaina 31.10.2024 klo 8:00.
+
+**Päivistys 31.10.2024**: Olen tehnyt viikkotehtävästä kaikki paitsi
+tiivistelmän kybertappoketjusta artikkelista (katso x) -> 2) ja Metasploitable.
 
 Tässä tehtävässä tutustuumme porttiskannaukseen ja rakennamme oma hakkerilabraa.
 
@@ -157,6 +160,13 @@ Lähde:https://www.oreilly.com/videos/the-art-of/9780135767849/9780135767849-SPT
 
 Kyseessä on Suomen lain mukaan tietomurron yrityksen tunnusmerkistön täyttämisestä.
 Kyseessä on vahingonkorvauksen sovittelemisesta.
+
+#### Kommenteja:
+* Kyseessä oli rikos, jossa 17-vuotias henkilö nimeltään A (s. 1981) oli syyllistynyt luvattomaan murtoon Osuuspankkikeskus-OPK osuuskunnan tietojärjestelmään 23.11.1998. A suoritti porttiskannauksen, joka ei ollut osuuskunnan tietojärjestelmän palomuurin mukaan hyväksymä vaan laiton. Osuuskunta ja konserniin kuuluva yhtiö vaati henkilöltä A:lta lähes 150 000 markan vahingonkorvauksen.
+* Syyteen käyttiin Turun käräjäoikeudessa, Turun hovioikeudessa ja Korkeimassa oikeudessa. Käräjäoikeus tuomitsi A:ta tietoliikenteen häirinnästä sakkorangaistuksen, kun taas sekä hovioikeus että korkein oikeus tuomitsi A:ta syyllistyneen osuuskunnan tietojärjestelmään kohdistuneeseen tietomurron yritykseen kun hän teki porttiskannauksen.
+* Syyte oli hankala, mm. voidaanko A:ta rangaista atk-alan asiantuntijana korkeimman vahingonkorvaukseen iästä huolimatta (hovioikeuden jäsen mukaan ei pitäisi, kun taas enemmistö hovioikudessa kyllä), IP-osoite oli kiistämättä tuli A:n koneelta kun taas puhelinnumero jäi tutkinnassa selvittämättä, voidaanko porttiskannaus pitää tahallisena luvattomana tietomurron yrityksenä vaikka porttiskannauksella haluttiin vain todeta avoimet palvelut (A:n näkemys oli ettei hän ole syylistynyt murtoon). KKO jopa käsitelli hyvin tarkoin sanoin, mikä on porttiskannaus ja milloin se on *peruslain mukaan* laiton tietomurron yritys.
+* Summa summarum voin sen todeta, että A oli tällä kerta huolittomasti porttiskannauksen. Vaikka hän on tehnyt aiemminkin porttiskannauksen eikä niistä ole hälytetty, on valettavasti vaikeaa puolustaa jos jonkun yrityksen palonmuuri hälyttää tietomurrosta joka viitaa tarkasti koneen IP-osoiteen.
+* Toisaalta syyte kuitenkin suruttaa minua, että katseltuaan ja kuunneltuaan Herrasmieshakkerit ja O'Reilly opetusvideot, että porttiskannaukset ovat olleet suosittuja työkaluja tietoturvan asiantuntjoille pitkään aikaan löytäkseen haavoituvuudet (ja näin olleen parantaa järjestelmään turvallisuuta), mutta yhteiskunta, valtio, oikeus ja viranomaiset pitävät näitä ns. "pahollaisten / rikollisten tekoja" hyvän tahdon tai lakien noudaten huolimatta. Miten voimme parantaa omaa tietoturvaa, ellei me opimme myös hakkeroiden tavoista. Tuntuu siltä, että pelkkä tunkeutumistestaus suljettussa ja nettitömässä ympäristössä on edelleen taboomainen ja rangaistava teko. (Sydämeni hakkaa pahasti.)  
 
 Lähde:
 https://finlex.fi/fi/oikeus/kko/kko/2003/20030036
