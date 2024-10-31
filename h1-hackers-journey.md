@@ -35,7 +35,7 @@ Yleisö pystyi lähettämään ehdouksia hashtagilla #hakkerit.
 
   I) Simjack uhka on vakavampi kuin Simswap. Asiasta huomioi Twitter entisen toimitusjohtaja.
     
-    * Uutinen koski SAT:een lisäysominaisuuden olevaan havoittuvuuden, joka ei ole esinny
+    ~ Uutinen koski SAT:een lisäysominaisuuden olevaan havoittuvuuden, joka ei ole esinny
 monessa paikoissa eikä suuren osa väestöstä. Eli haavoittuvuus koski lähinnä hyvin tarkkaan ja rajattuun ryhmään. 
     
     * Podcastissa huomioittiin, että teleoperattorin vaihto on hyvin erilaista Amerikassa verrattuna Suomeen.
